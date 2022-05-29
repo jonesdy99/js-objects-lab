@@ -26,7 +26,7 @@ const game = {
         alert(`Congrats! you guessed the number in ${this.prevGuesses.length} guesses!`)
       } else if (this.prevGuesses[this.prevGuesses.length - 1] > this.secretNum){
         alert(`Your guess is too high guess again. Previous guesses ${this.prevGuesses.join()}`)
-      } else if (this.prevGuesses[this.prevGuesses.length - 1] < this.scretNum){
+      } else if (this.prevGuesses[this.prevGuesses.length - 1] < this.secretNum){
         alert(`Your guess is too low guess again. Previous guesses ${this.prevGuesses.join()}`)
       }    
     }
